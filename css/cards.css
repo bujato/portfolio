@@ -1,0 +1,50 @@
+.api {
+    background: url(/imgs-port/api.png) no-repeat center;
+    background-size: cover;
+}
+
+.calc {
+    background: url(/imgs-port/calc.png) no-repeat center;
+    background-size: cover;
+}
+
+.clock {
+    background: url(/imgs-port/clock.png) no-repeat center;
+    background-size: cover;
+}
+
+.game {
+    background-image: url(/imgs-port/game.png);
+    background-size: cover;
+}
+
+.jobfinder {
+    background: url(/imgs-port/jobfinder.png) no-repeat center;
+    background-size: cover;
+}
+
+.validacao {
+    background: url(/imgs-port/validacao.png) no-repeat center;
+    background-size: cover;
+}
+
+.api, .calc,
+.clock, .game,
+.jobfinder, .validacao {
+    transition: 0.3s;
+}
+
+.api:hover, .calc:hover,
+.clock:hover, .game:hover,
+.jobfinder:hover, .validacao:hover 
+{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+#projetos a {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #13444D;
+}

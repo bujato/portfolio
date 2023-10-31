@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/query.css">
+    <link rel="stylesheet" href="/css/cards.css">
+    <title>Portfólio</title>
+
+  </head>
+  <body>
+    <header id="header">
+      <section id="container-header">
+        <div id="redes-socias">
+          <a target="_blank" href="https://github.com/bujato" class="github"><img src="/imgs/git.png" alt="GitHub"></a>
+
+          <a target="_blank" href="https://www.linkedin.com/in/enzo-bujato-a9b93a236/" class="linkedin"><img src="/imgs/linkedinicon.png" alt="LinkdIn"></a>
+
+          <a target="_blank" href="https://www.instagram.com/enzo_bujato/" class="instagram"><img src="/imgs/1161953_instagram_icon.svg" alt="Instagram"></a>
+        </div>
+        <div id="portfolio">
+          <a href="#sobre" class="sobre">Sobre</a>
+          <a href="#projetos" class="projetos">Projetos</a>
+          <a href="#footer" class="projetos">Contato</a>
+        </div>
+      </section>
+      <section id="name">
+        <h3>Olá, sou</h3>
+        <h1>Enzo<br>Bujato</h1>
+      </section>
+    </header>
+
+    <section id="sobre">
+      <div class="bem-vindo">
+        <h1 class="titulo">Bem-vindo ao meu Portfólio!</h1> 
+        <p class="texto">Comecei meus estudos em desenvolvimento de software com a linguagem <strong>Python</strong> , onde adquiri conhecimentos em lógica de programação, estruturas de dados e algoritmos. Depois decidi expandir meus horizontes e direcionar meu foco para o front-end. <strong>HTML</strong> e <strong>CSS</strong>  se tornaram minhas principais ferramentas para criar interfaces web responsivas. Aprendi a estrutura básica do HTML para criar a arquitetura de uma página web e a estilizar esses elementos usando CSS para alcançar um design agradável e intuitivo. Atualmente, estou focado em expandir meus conhecimentos em <strong>JavaScript</strong> e suas principais bibliotecas e frameworks como o <strong>React</strong>.</p>
+      </div>
+      <h1 class="tecno">tecnológias</h1>
+      <div class="conteiner-tecnologias">
+        <div class="html logo"><img src="/imgs/logo-html.png" alt="HTML" class="png"><p>HTML</p></div>
+        <div class="css logo"><img src="/imgs/logo-css.png" alt="HTML" class="png"><p>CSS</p></div>
+        <div class="js logo"><img src="/imgs/logo-js.png" alt="HTML" class="png"><p>JavaScript</p></div>
+        <div class="react logo"><img src="/imgs/logo-react.png" alt="HTML" class="png"><p>React</p></div>
+        <div class="node logo"><img src="/imgs/logo-node.png" alt="HTML" class="png"><p>Node</p></div>
+        <div class="python logo"><img src="/imgs/logo-python.png" alt="HTML" class="png"><p>Python</p></div>
+      </div>
+    </section>
+    <section id="projetos">
+      <h1 class="name-projetos">Projetos</h1>
+      <section class="container-projetcs">
+        <a href="https://jolly-jelly-4d6a67.netlify.app" target="_blank" rel="noopener noreferrer"><div class="api"></div>HTML, CSS, JS e API</a>
+        <a href="https://beautiful-kringle-0383a6.netlify.app" target="_blank" rel="noopener noreferrer"><div class="calc"></div>HTML, CSS, JS</a>
+        <a href="https://candid-faloodeh-c1aa6f.netlify.app/" target="_blank" rel="noopener noreferrer"><div class="clock"></div>HTML, CSS, JS</a>
+        <a href="https://extraordinary-dango-0eda28.netlify.app" target="_blank" rel="noopener noreferrer"><div class="game"></div>HTML, CSS, JS</a>
+        <a href="https://capable-treacle-749c2e.netlify.app" target="_blank" rel="noopener noreferrer"><div class="jobfinder"></div>HTML, CSS, JS e Node</a>
+        <a href="https://transcendent-valkyrie-93259a.netlify.app" target="_blank" rel="noopener noreferrer"><div class="validacao"></div>HTML, CSS, JS</a>
+      </section>
+    </section>
+    <footer id="footer">
+      <section id="container-footer">
+        <h1>Contato</h1>
+        <div class="input">
+          <input type="text" placeholder="Nome" id="nome">
+          <input type="email" placeholder="Email" id="email">
+          <textarea id="mensagem" placeholder="Mensagem" style="resize: vertical"></textarea>
+          <button type="submit" id="btn" onclick="verificarItens()">Enviar</button>
+        </div>
+      </section>
+    </footer>
+
+    <script src="/assets/validacao.js"></script>
+  </body>
+</html>

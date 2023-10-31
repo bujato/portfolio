@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Inter:wght@200;400&family=Judson:wght@400;700&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------ Header --------------- */
+#container-header {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#redes-socias a img{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    transition: 1s;
+}
+
+#portfolio a {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding-left: 25px;
+    color: #000;
+    transition: 0.3s;
+}
+
+#name h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Judson', serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#name h1 {
+    text-align: center;
+    font-size: 170px;
+    font-family: 'Judson', serif;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #13444D, #a6bca6, #2D5E4C);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+#redes-socias a img:hover{
+    transform: rotateY(360deg) scale(1.1);
+}
+
+#portfolio a:hover {
+    color: #13444D;
+    font-size: 22px;
+}
+
+/* ---------- sobre ----------- */
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Judson', serif;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.bem-vindo {
+    font-size: 20px;
+    padding: 6% 20%;
+}
+
+strong {
+    color: #4F784E;
+    font-size: 22px;
+}
+
+.tecno {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.conteiner-tecnologias {
+    display: grid;
+    justify-content: center;
+    gap: 35px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.conteiner-tecnologias div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #d5d5d5;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 7px;
+}
+
+.conteiner-tecnologias div:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.png {
+    width: 60px;
+    height: 55px;
+}
+
+/* ----------- Projects ---------------- */
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Judson', serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.container-projetcs div {
+    width: 300px;
+    height: 220px;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container-projetcs {
+    display: grid;
+    justify-content: center;
+    gap: 35px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+/* -------Footer ------- */
+
+#container-footer .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.input {
+    gap: 20px;
+}
+
+#container-footer h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Judson', serif; 
+    padding: 20px;
+}
+
+#nome, #email, #mensagem{
+    width: 650px;
+    height: 55px;
+    border-radius: 10px;
+    border: solid #D5D5D5 2px;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+#mensagem {
+    height: 120px;
+}
+
+#nome::placeholder, 
+#email::placeholder, 
+#mensagem::placeholder{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: #FF3000;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+button:hover  
+{
+    background-color: #fff;
+    color: #FF3000;
+    border-color: #FF3000;
+}
